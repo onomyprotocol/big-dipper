@@ -58,7 +58,7 @@ common:
     counterparty: 'Counterparty'
 
 navbar:
-    siteName: 'BIG DIPPER'
+    siteName: 'Onomy Explorer'
     version: '-'
     validators: 'Validators'
     blocks: 'Blocks'

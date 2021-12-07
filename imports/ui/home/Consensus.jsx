@@ -53,9 +53,6 @@ export default class Consensus extends Component{
                 let validatorOperatorAddress = validator?.operator_address ?? this.props.consensus.proposerAddress;
                 return (
                     <div>
-                        {(this.state.chainStopped)?<Card body inverse color="danger">
-                            <span><T _purify={false} time={moment(this.props.consensus.latestBlockTime).fromNow(true)}>chainStatus.stopWarning</T></span>
-                        </Card>:''}
                         <Card className="status consensus-state">
                             <div className="card-header"><T>consensus.consensusState</T></div>
                             <CardBody>
